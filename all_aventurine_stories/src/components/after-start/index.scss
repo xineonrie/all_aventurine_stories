@@ -1,0 +1,67 @@
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+    font-family: "思源宋体 Bold";font-weight: 700;src: url("//at.alicdn.com/wf/webfont/pBjEpy8X6DJ9/skoovWLRFoNX.woff2") format("woff2"),
+    url("//at.alicdn.com/wf/webfont/pBjEpy8X6DJ9/XN8ze8d9sBQC.woff") format("woff");
+    font-display: swap;
+  }
+
+  .App {
+    text-align: center;
+    max-height: 100vh;
+    background-color: black;
+  }
+  
+  .App-logo {
+    margin-top: 5vh;
+    height: 30vmin;
+    pointer-events: none;
+  }
+  
+  .introduction-box {
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .App-introduction {
+    font-size: 15px;
+    margin-top: -20px;
+    text-align: left;
+  }
+  
+  .App-owner {
+    font-size: 15px;
+    text-align: right;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      /* animation: App-logo-spin infinite 20s linear; */
+    }
+  }
+  
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: "思源宋体 Bold"
+  }
+  
+  .App-title {
+    margin-top: 10vh;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
