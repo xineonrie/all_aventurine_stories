@@ -1,7 +1,7 @@
 import logo from '../../images/logo/icon-after.png';
 import qutationUp from '../../images/logo/qutation-up.png';
 import qutationDown from '../../images/logo/qutation-down.png';
-import './index.scss';
+import './index.module.scss';
 
 import React from 'react';
 import { EyeInvisibleOutlined, EyeTwoTone, UserOutlined } from '@ant-design/icons';
