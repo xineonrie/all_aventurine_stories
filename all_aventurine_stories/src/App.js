@@ -1,7 +1,7 @@
 import './App.css';
 
 import React, { useContext, useState } from 'react';
-import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 import { gameContext } from './utils/context';
 import contextInfo from './utils/contextInfo';
@@ -21,9 +21,9 @@ function App() {
     <gameContext.Provider
       className="App" 
       value={[allState, setAllState]}>
-      <BrowserRouter>
+      <Router>
        <Routes>
-          <Route path="" element={<MainStart />} />
+          <Route path="/" element={<MainStart />} />
           <Route path="/error-game" element={<ErrorGame />} />
           <Route path="/" element={<AfterLoginStructure />}>
             <Route path="home" element={<MainSearch />} />
@@ -33,7 +33,7 @@ function App() {
         {/* {!isLogin ? <MainStart /> : <AfterLoginStructure />} */}
        </Routes>
       {/* <AfterStart /> */}
-      </BrowserRouter>
+      </Router>
     </gameContext.Provider>
   );
 }
