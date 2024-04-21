@@ -3,10 +3,12 @@ import qutationUp from '../../images/logo/qutation-up.png';
 import qutationDown from '../../images/logo/qutation-down.png';
 import styles from './index.module.scss';
 import classNames from 'classnames';
+import authService from '../../utils/authService';
 
 import React, { useState, useContext } from 'react';
 import { EyeInvisibleOutlined, EyeTwoTone, UserOutlined } from '@ant-design/icons';
 import { Alert, Button, Input, Space } from 'antd';
+import { useNavigate } from 'react-router-dom';
 
 import { gameContext } from '../../utils/context';
 
@@ -22,6 +24,8 @@ function MainStart() {
 
   const [allState, setAllState] = useContext(gameContext);
 
+  const navigate = useNavigate();
+
   const handleClick = () => {
     if(userName !== 'VeritasRatio') {
       setShouldShowToast(true);
@@ -31,7 +35,8 @@ function MainStart() {
         isLoginAsVeritas: false,
         isLoginLoading: true,
       }));
-
+      authService.login();
+      navigate('/not-you');
     }
     else {
       setAllState(prevState => ({
@@ -40,6 +45,8 @@ function MainStart() {
         isLoginAsVeritas: true,
         isLoginLoading: true,
       }));
+      authService.login();
+      navigate('/home');
     }
 
     setTimeout(() => {

@@ -1,0 +1,204 @@
+.contentBox{
+    border: solid;
+    width: 60%;
+    min-width: 464px;
+    height: auto;
+    position: relative;
+    z-index: 10;
+    background-color: #ffffffa9;
+    border-radius: 16px;
+    padding: 32px;
+    border-color: #2d5f4998;
+}
+
+// 以下转移
+.TitleBox {
+    padding:10px;
+    border: solid;
+}
+
+.subTitle {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: white;
+    width: 130px;
+    top: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.TitleBox2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.TitleBoxLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    min-width: 400px;
+
+    .firstPart{
+        background:linear-gradient(117deg, rgba(19,81,32,1) 0%, rgba(62,201,92,1) 100%);
+        width: 100%;
+        padding: 10px;
+        min-width: 400px;
+        border-top-left-radius: 120px;
+        border-bottom-left-radius: 120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .firstPartImg{
+            width: 60px;
+            height: auto;
+            flex-shrink:0;
+        }
+
+        .firstParTitleBox{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            margin-left: 12px;
+        }
+
+        .firstPartTitle{
+            color: white;
+            font-weight: 900;
+            font-size: 28px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin: 0;
+        }
+
+        .subText {
+            color: white;
+            line-height: 10px;
+            font-size: 12px;
+            margin-top: -4px;
+        }
+
+        .secondPartTitle {
+            color: white;
+            font-weight: 900;
+            font-size: 40px;
+            margin: 0;
+            float: right;
+            margin-left: 8px;
+            text-shadow:  #fff 1px 0 10px;
+        }
+
+        .tempBox {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+
+.TitleBoxRight {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-width: 200px;
+}
+
+.greenBan {
+    width: 5px;
+    height: 50px;
+    background-color: #2d5f49;
+}
+
+.downBox {
+    display: flex;
+    flex-direction: row;
+}
+.downLeftBox {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    flex-shrink: 0;
+}
+
+.downRightBox {
+    background:linear-gradient(117deg, rgba(19,81,32,1) 0%, rgba(62,201,92,1) 100%);
+    width: auto;
+    margin-left: 8px;
+    margin-top: 8px;
+    padding: 16px;
+}
+
+.itemClass {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.itemTextClass {
+    background-color: #dfdfdf;
+    padding: 8px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    .sub{
+        margin: 0;
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .title {
+        margin: 0;
+        font-size: 12px;
+        font-weight: 800;
+    }
+}
+
+.titleImgBox {
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 12px;
+    min-width: 100px;
+}
+
+.Slogo {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.SlogoText{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 800;
+    text-align: left;
+    color: #fff;
+}
+
+.SlogoTextSub{
+    font-size: 12px;
+    color: #fff;
+}
+
+
+.LinkStyle {
+    font-weight: 900;
+}
+
+.LinkStyle:hover {
+    color: #2d5f49;
+    cursor: pointer;
+}
+
+.hiddenText {
+    background-color: black;
+}
+
+.hiddenText:hover {
+    color: white;
+}

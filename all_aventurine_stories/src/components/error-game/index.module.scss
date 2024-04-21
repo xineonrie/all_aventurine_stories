@@ -1,6 +1,7 @@
+
 .appLayout {
     text-align: center;
-    min-height: 100vh;
+    max-height: 100vh;
     background-color: rgb(255, 255, 255);
 }
 
@@ -15,6 +16,7 @@
     url("//at.alicdn.com/wf/webfont/pBjEpy8X6DJ9/cbugwZB3eVc1.woff") format("woff");
     font-display: swap;
   }
+  
 .hrLine {
     opacity: 0.5;
     margin-top: 5vh;
@@ -30,7 +32,7 @@
 
 .innerTitle {
     font-size: 40px;
-    font-family: "阿里妈妈东方大楷 Regular";
+    font-weight: 700;
     color: #2D5F49;
     margin: 0;
 }
@@ -48,12 +50,23 @@
 
 .bgImg {
     position: absolute;
-    width: 50vw;
+    width: 70vw;
     opacity: 0.5;
-    left: 50%;   
-    top:-50vh;          
+    left: 50%;   ;          
     transform: translateX(-50%);
     z-index: 0;
+    top: -20%
 }
 
+.centerBox {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    align-items: center;
+}
 
+.centerLogo {
+    width: 40vh;
+    height: 40vh;
+}

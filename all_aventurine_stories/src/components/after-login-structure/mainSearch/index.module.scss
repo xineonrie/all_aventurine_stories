@@ -56,4 +56,41 @@
     z-index: 0;
 }
 
+.underPart {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.subDiv1 {
+    border: solid;
+    border-color: #2d5f4998;
+    width: 100%;
+    margin: 40px 20px;
+    height: 40vh;
+    border-radius: 24px;
+    z-index: 10;
+    background-color: white;
+    padding: 12px;
+    align-items: flex-start;
+}
+
+.subTitle {
+    font-size: 25px;
+    font-family: "阿里妈妈东方大楷 Regular";
+    color: #2D5F49;
+    text-align: left;
+    margin: 10px;
+}
+
+.singleItem{ 
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.subLink:hover {
+    color: #2ea06f;
+    cursor: pointer;
+}

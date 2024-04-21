@@ -6,11 +6,13 @@ const allContext = {
     readingList: [ //文档列表
         {
             name: 'S-10180-35 调查档案',
-            isRead: true
+            isRead: true,
+            id: 'file001'
         },
         {
             name: '埃维金人：一段被遗忘的历史',
-            isRead: false
+            isRead: false,
+            id: 'file002'
         }
     ]
 
