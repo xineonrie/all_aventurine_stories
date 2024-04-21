@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/all_aventurine_stories/static/css/main.e8a278d0.css",
+    "main.js": "/all_aventurine_stories/static/js/main.34eac739.js",
+    "static/js/453.1bced145.chunk.js": "/all_aventurine_stories/static/js/453.1bced145.chunk.js",
+    "static/media/publicImg.jpg": "/all_aventurine_stories/static/media/publicImg.b979c1b8f2d644206c99.jpg",
+    "static/media/bg-inner.png": "/all_aventurine_stories/static/media/bg-inner.d2fd0a4390aeaee475c8.png",
+    "static/media/icon-after.png": "/all_aventurine_stories/static/media/icon-after.47228c2f294201f88c23.png",
+    "static/media/icon-zhumo.png": "/all_aventurine_stories/static/media/icon-zhumo.63644ce31ef944566c4b.png",
+    "static/media/icon-mention.png": "/all_aventurine_stories/static/media/icon-mention.ba67c438bdc3b2310047.png",
+    "static/media/icon-zhumo-dark.png": "/all_aventurine_stories/static/media/icon-zhumo-dark.1d7d8922e4cad2ac6b77.png",
+    "static/media/SLogo.png": "/all_aventurine_stories/static/media/SLogo.dcc7196c116bf6e5fa29.png",
+    "index.html": "/all_aventurine_stories/index.html",
+    "main.e8a278d0.css.map": "/all_aventurine_stories/static/css/main.e8a278d0.css.map",
+    "main.34eac739.js.map": "/all_aventurine_stories/static/js/main.34eac739.js.map",
+    "453.1bced145.chunk.js.map": "/all_aventurine_stories/static/js/453.1bced145.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8a278d0.css",
+    "static/js/main.34eac739.js"
+  ]
+}
